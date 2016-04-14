@@ -1,0 +1,7 @@
+1. Create html header, main and footer
+
+2. Add image
+
+3. Create headings and text within main content area
+
+4. Add footer text
