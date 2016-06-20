@@ -15,6 +15,10 @@ main {
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
 }
 
+p {
+  /* Set font color to be the hex code 666666 */
+}
+
 img {
   /* Set max width to be 100% of the containing element */
 }
@@ -24,7 +28,7 @@ h1 {
 }
 
 h2 {
-  /* Set font color to be red (try using a hex or rgb code!) */
+  /* Set font color to be purple (BONUS: try using a hex or rgb code!) */
 }
 
 footer {
