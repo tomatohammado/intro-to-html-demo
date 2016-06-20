@@ -1,44 +1,66 @@
 body {
   /* Set margin to 0 pixels on all sides */
+  margin: 0px;
   /* Set font size to be 20 pixels */
+  font-size: 20px;
   /* Set line height to be 1.5 times larger than default */
+  line-height: 1.5;
   /* Set font family to be Helvetica or Arial */
+  font-family: Arial, Helvetica;
 }
 
 header {
   /* Set text alignment to center */
+  text-align: center;
 }
 
 main {
   /* Set maximum width to be 800 pixels */
+  max-width: 800px;
   /* Set margin to be automatically calculated on all sides */
+  margin: auto;
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
+  padding: 0px 20px;
+}
+
+p {
+  /* Set font color to be the hex code 666666 */
+  color: #666666;
 }
 
 img {
   /* Set max width to be 100% of the containing element */
+  max-width: 100%;
 }
 
 h1 {
   /* Set border along bottom to be a black solid line 5 pixels thick */
+  border-bottom: 5px solid black;
 }
 
 h2 {
-  /* Set font color to be red (try using a hex or rgb code!) */
+  /* Set font color to be purple (try using a hex or rgb code!) */
+  color: purple;
 }
 
 footer {
   /* Set font color to white */
+  color: white;
   /* Set background color to black */
+  background-color: black;
   /* Set padding on all sides to be 20 pixels */
+  padding: 20px;
   /* Set text alignment to center */
+  text-align: center;
   /* Set margin on top to be 60 pixels */
+  margin-top: 60px;
 }
 
 @media (max-width: 600px) {
 
   body {
     /* Set font size to be 80% of the normal size */
+    font-size: 80%;
   }
 
 }
