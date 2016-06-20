@@ -1,17 +1,17 @@
 body {
   /* Set margin to 0 pixels on all sides */
-  /* Change font size to be 20 pixels */
-  /* Change the line height to be 1.5 times larger than normal */
-  /* Change the font family to use the Google font */
+  /* Set font size to be 20 pixels */
+  /* Set line height to be 1.5 times larger than default */
+  /* Set font family to be Helvetica or Arial */
 }
 
 header {
-  /* Align text to center */
+  /* Set text alignment to center */
 }
 
 main {
   /* Set maximum width to be 800 pixels */
-  /* Set margins to be automatically calculated on all sides */
+  /* Set margin to be automatically calculated on all sides */
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
 }
 
@@ -20,7 +20,7 @@ img {
 }
 
 h1 {
-  /* Set the border along bottom to be 5 pixel high black solid line */
+  /* Set border along bottom to be a black solid line 5 pixels thick */
 }
 
 h2 {
@@ -31,28 +31,14 @@ footer {
   /* Set font color to white */
   /* Set background color to black */
   /* Set padding on all sides to be 20 pixels */
-  /* Align text to center */
-  /* Set top margin to be 60 pixels */
-}
-
-.highlight {
-  /* Set background color to red */
-  /* Set font color to white */
-  /* Set padding on all sides to be 4 pixels */
-}
-
-.mobile-only {
-  /* Set this to NOT display by default */
+  /* Set text alignment to center */
+  /* Set margin on top to be 60 pixels */
 }
 
 @media (max-width: 600px) {
 
   body {
     /* Set font size to be 80% of the normal size */
-  }
-
-  .mobile-only {
-    /* Set display to block */
   }
 
 }
