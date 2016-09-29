@@ -1,8 +1,7 @@
 body {
   /* Set margin to 0 pixels on all sides */
-  /* Set font size to be 20 pixels */
-  /* Set line height to be 1.5 times larger than default */
   /* Set font family to be Helvetica or Arial */
+  /* Set line height to be 1.5 times larger than default */  
 }
 
 header {
@@ -46,7 +45,12 @@ footer {
 @media (max-width: 600px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
+    /* Set the background color to be purple */
+    /* Set the font color to be white */
   }
+
+  /* Question - did the font color change? If not, why? Let's fix that below */
+
+  /* Where did the H2's go? See if you can fix that too! */
 
 }
